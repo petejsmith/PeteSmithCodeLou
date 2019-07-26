@@ -1,39 +1,12 @@
-// $socialBanner = newArray banner=0
 
-// $(document).ready(function(){
-//   $("logo-button").click(function(){
-//     $("img").attr("width",function(n, v){
-//       return v - 50;
-        
-// function showSocial() {
-//    for(var i = 0; i < 5; i++) {
-//       document.log(i); 
-//    }
-//    console.log(i); //prints 5;
-// }
-// function socialIcons(){
-// for (i = 0, i < newArray.length+1, i =+1)
-//         { document.display(socialBanner[i]);
-//        }
-         
-$MyBanner=newArray('facebook.png','twiiter.png','linkedin.png','instagram.png')
-banner=0
-function ShowBanners()
-{ if (document.images)
-{ banner++
-if (banner==MySocial.length) {
-banner=0}
-document.ChangeBanner.src=MyBanners[banner]
-setTimeout("ShowBanners()",1000)
-}
-// $('./!CSSCLASS!/').hide;
-// $('.cssParent child');
-
-// $("#target").click(function() {
-//     alert( "Handler for .click() called."");
-// });
-// append("<hr />");
-
-
-// jQuery("ul li").append("hr/>")
-
+setTimeout("document.bgColor = 'white'", 1000)
+setTimeout("document.bgColor = 'lightpink'", 1500)
+setTimeout("document.bgColor = 'pink'", 2000)
+setTimeout("document.bgColor = 'darksalmon'", 2500)
+setTimeout("document.bgColor = 'plum'", 3000)
+setTimeout("document.bgColor = 'tomato'", 3500)
+setTimeout("document.bgColor = 'peru'", 4000)
+setTimeout("document.bgColor = 'cornsilk'", 4500)
+setTimeout("document.bgColor = 'yellow'", 5000)
+setTimeout("document.bgColor = 'rosybrown'", 5500)
+setTimeout("document.bgColor = 'sandybrown'", 6000)
