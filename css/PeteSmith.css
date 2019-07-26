@@ -18,7 +18,7 @@ a:active 	{ color: white; text-decoration: none;}
 position:sticky;
 margin: 0 auto;
 color:white;
-background-color:black;
+background-color:323232;
 flex-direction: column;
 z-index:10000;
 }
@@ -148,14 +148,14 @@ footer{
 color: white;
 width: 100%;
 margin: 0 auto;
-background-color: black;
+background-color: 323232;
 text-align:center;
 height: 6em;
 }
 
 .footer-nav{
 flex-direction: row;
-background-color: black;
+background-color: 323232;
 justify-content: space-between;
 height: 4em;
 display: block;
@@ -172,7 +172,7 @@ text-align: center;
 }
 p{
     color:white;
-    background-color: black;
+    background-color:323232;
     margin:0;
 text-align: center;
 font-size: .6em;
