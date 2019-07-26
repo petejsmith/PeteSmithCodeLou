@@ -18,9 +18,9 @@ a:active 	{ color: white; text-decoration: none;}
 position:sticky;
 margin: 0 auto;
 color:white;
-background-color:#323232;
+background-color:black;
 flex-direction: column;
-z-index:10000;
+z-index:-1;
 }
 
 .logo{
