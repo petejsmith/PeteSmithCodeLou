@@ -3,65 +3,95 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pete Smith Studio</title>
-	<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Darker+Grotesque|Fredoka+One|Montserrat|Questrial|Raleway&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="petesmith.css">
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lekton:700|Rubik+Mono+One|Syncopate:700&display=swap');
+	</style>
+	<link rel="stylesheet" href="css/petesmith.css">
+	<link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
 <!-- Title, will include logo when applicable-->
 	<header class="banner">
-	<h1 class="title"><a href="petesmith.html">PETE SMITH</a></h1>
-			<ul class="main-nav">
-				<li><a href="petesmithwork.html">Work</a></li>
-				<li><a href="petesmithcontact.html">Contact</a></li>
-				<li><a href="petesmith.html">Blog</a></li>
-			</ul>
+	<a href="petesmith.html">
+		<img class="logo" src="images/B&Wlogo.png" alt="Logo for Pete Smith Studio">
+		<h1 class="title">PETE SMITH</h1>
+	</a>
+	<ul class="main-nav">
+		<li><a href="petesmithwork.html">Work</a></li>
+
+		<li><a href="petesmithabout.html">About</a></li>
+		<li><a href="petesmithblog.html">Blog</a></li>
+	</ul>
 	</header>
 	<main>
 <!-- Bold/Contrasting Font for salut, smaller with same font with breif intro. Make Wider + Shorten on desktop-->
-		<div class="home-intro">
-			<h2>HOWDY</h2>
-			<h3>I'm Pete, A Multi-Media Designer<br>Living In Louisville, KY.<br></h3>
+	<div class="home-intro">
+		<h2>Howdy,</h2>
+		<h3>My name is Pete.
+			<br>I'm A Creator & Designer
+			Living In Louisville, KY.
+			<br>Welcome to my Digital Portfolio.</h3>
+	</div>
+	
+	<div class="body-menu">
+	<div class="column1">
+	<h4 class="ctitleDigital">Digital</h4>	
+		<a href="petesmith.html">
+			<img id="1d" src="images/placeholder.png" alt="Websites Created By Pete Smith">
+		</a>
+			<h4>Websites</h4>
+		<a href="petesmith.html">
+			<img id="2d" src="images/placeholder.png" alt="2D Artwork By Pete Smith">
+		</a>
+			<h4>2D</h4>
+		<a href="petesmith.html">
+			<img id="logos" src="images/placeholder.png" alt="Award Winning Logos by Pete Smith">
+		</a>
+			<h4>Logos</h4>
 		</div>
-		<h4>Whats New</h4>
-			<p>
-
-
-				
-			</p>
-<!-- clickable full screen images with centered titles/descripts thast appear on hover. Row view on desk top-->
-		<div class="body-menu">
-			<img src="Digital.jpg">
-				<p>Frontend Development + Graphic Design + Digital Marketing</p>
-			<img src="Physical.jpg">
-				<p>Paint + Ink + Ceramics + </p>
-			<img src="About.jpg">
-				<p>Bio + Download Resume</p>
-		</div>
-<!-- Close with CTA and all options dycotimus with social media and blog button. split on desktop-->
-		<h4 class="hero1">Connect</h4>
-		<form action="/action_page.php" method="get">
+	
+		<div class="column2"></div>
+		<h4 class="ctitlePhysical">Physical</h4>
+		<a href="petesmith.html">
+			<img id="3d" src="images/placeholder.png" alt="3D ArtWork By Pete Smith">
+		</a>
+			<h4>3D</h4>
+		<a href="petesmith.html">
+			<img id="5d" src="images/placeholder.png" alt="Inforgraphics and Digital Makreting by Pete Smith">
+		</a>
+			<h4>Marketing</h4>
+		<a href="petesmith.html">
+			<img id="6d" src="images/placeholder.png"alt="View & Download Pete Smith's Resume">
+		</a>
+			<h4>Resume</h4>
+	</div>
+	<div class="profile">
+	</div>
+	</div>
+		<!-- <button class="blog-button" scr="hitml/petesmithblog.html">View Blog</button> -->
+		<!-- Close with CTA and all options dycotimus with social media and blog button. split on desktop -->
+		<!-- <form action="/action_page.php" method="get">
 			First name: <input type="text" name="fname"><br>
 			Last name: <input type="text" name="lname"><br>
-		<input type="submit" value="Submit">
-	</form>
-	<div class="social">
-		<img class="instagram" src="" alt="">
-		<img class="facebook" src="" alt="">
-		<img class="youtube" src="" alt="">
-		<img class="twiiter" src="" alt="">
-		<button class="social-blog" src="petesmithblog.html">Blog</button>
-	</div>
+		<input type="submit" value="Submit"> -->
+		</form>
 		</main>
-<!--row view on mobile - split/widen on desktop maybe add more-->
-
-		<footer>
-			<ul class="footer-nav">
-				<li><a href="petesmithwork.html">Work</a></li>
-				<li><a href="petesmith.html">Blog</a></li>
-				<li><a href="petesmithabout.html">About</a></li>
-				<li><a href="petesmithcontact.html">Contact</a></li>
-			</ul>
-<span>&copy; 2019 Pete Smith Studio</span>
+		<!-- <div class="social-footer">
+			<img class="instagram" src="images/insta.png" alt="instagram Link">
+			<img class="facebook" src="images/fb.png" alt="Facebook Link">
+			<img class="LinkedIn" src="images/link.png" alt="LinkedIn Social Media Link for Pete Smith">
+			</div>
+		<footer> -->
+	
+	<ul class="footer-nav">
+		<li><a href="petesmithwork.html">Work</a></li>
+		<li><a href="petesmith.html">Blog</a></li>
+		<li><a href="petesmithabout.html">About</a></li>
+		<li><a href="petesmithcontact.html">Contact</a></li>
+	</ul>
+<p>&copy; Pete Smith Studio . 2019</p>
 </footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/peteSmithCodeLou.js"></script>
 </body>
 </html>

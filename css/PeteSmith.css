@@ -1,0 +1,266 @@
+/* MobileFirstDefaults Start - Global */
+*{
+box-sizing: border-box;
+}
+
+body{
+margin: 0 auto;
+}
+
+a:link 		{ color: inherit; text-decoration: none;}
+a:visited   { color: white; text-decoration: none;}
+a:hover 	{ color: grey; text-decoration: inherit;}
+a:active 	{ color: white; text-decoration: none;}
+
+/* MobileFirstDefaults - Top*/
+
+.banner{
+position:sticky;
+margin: 0 auto;
+color:white;
+background-color:black;
+flex-direction: column;
+z-index:10000;
+}
+
+.logo{
+display:block;
+margin: 0 auto;
+height: 120px;
+padding-top: 1.8em;
+}
+
+.title{
+text-align: center;
+font-family: 'Syncopate', sans-serif;
+}
+
+.main-nav li:children a { 
+border-top: 1px solid #ccc;
+}
+
+.main-nav{
+margin: 0 auto;
+padding-top:.4em;
+list-style-type: none;
+padding-right: 2em;
+font-family: 'Syncopate', sans-serif;
+display: flex;
+text-align: center;
+flex-direction: column;
+}
+
+.main-nav a{
+display: block;
+padding-bottom: 1em;
+margin: 0;
+flex-direction: column;
+text-align: center;
+width:100%;
+}
+
+.main-nav a:hover{ text-decoration-color: yellow;}
+
+
+/* MobileFirstDefaults - TopEnd */
+/* ------------------------------------------------------------------- */
+/* U-PageContent - Start */
+
+.home-intro{
+flex-direction: column;
+font-family: 'Rubik Mono One', sans-serif;
+margin: 0 auto;
+width: 100%;
+letter-spacing: .012em;
+font-size: .6;
+box-shadow: 5px 10px 30px#888888;
+}
+
+h2{
+padding-left: .26em;
+margin: 0 auto;
+font-size: 4em;
+padding-top: .4em;
+padding-bottom: .1em;
+}
+
+h3{
+padding-left: 1em;
+text-align: left;
+margin: 0 auto;
+font-size: 1em;
+padding-top: .5em;
+padding-bottom: .7em;
+line-height: 1.2em;
+}
+.body-menu{
+    padding-top: 3em;
+    width:100%;
+    margin:0;
+    text-align: center;
+}
+
+.column1{
+    width: 50%;
+    float:left;
+}
+.column2{
+    width: 50%;
+}
+
+
+h4{
+    font-family: 'Syncopate', sans-serif;
+text-align: center;
+padding-left: 1em;
+}
+
+/* .image-container {
+position: relative;
+width: 200px;
+height: 300px;
+}
+
+.image-container .after {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: none;
+color: #FFF;
+}
+
+.image-container:hover .after {
+display: block;
+background: rgba(0, 0, 0, .6);
+} */
+
+/* U-PageContent - End */
+/* ----------------------------------------------------------------- */
+/* MobileFirstDefaults - Bottom -*/
+/* .social-footer{
+    margin:0;
+    display: block;
+
+} */
+footer{
+color: white;
+width: 100%;
+margin: 0 auto;
+background-color: black;
+text-align:center;
+height: 6em;
+}
+
+.footer-nav{
+flex-direction: row;
+background-color: black;
+justify-content: space-between;
+height: 4em;
+display: block;
+margin: 0;
+text-align: center;
+}
+.footer-nav li{
+    font-family: 'Syncopate', sans-serif;
+    padding-top:2em;
+    color:white;
+    padding-right:1em;
+    display:inline-block;
+    flex-direction: row;
+}
+p{
+    color:white;
+    background-color: black;
+    margin:0;
+text-align: center;
+font-size: .6em;
+
+}
+
+}
+/* .foo {
+    background-image: url(images/image1.png), url(images/image2.png);
+    background-color: violet;
+    background-blend-mode: screen multiply;
+} */
+/* MobileFirstDefaults - End */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* @MediaQueriesTablet 750- Start - Global */
+@media (min-width: 750px){
+
+}
+/* @MediaQueriesTablet - End */
+/* ----------------------------------------------------------------- */
+/* ----------------------------------------------------------------- */
+/* @MediaQueriesDesktop 1100- Start - Global */
+@media (min-width: 750px){
+
+.banner{
+    height:150px;
+}
+.logo{ 
+padding-left: 2em;
+flex-direction: row;
+display:inline-block;
+float:left;
+}
+
+.title{  
+margin: 0;
+padding-top: 2em;
+padding-left: 1em;
+margin-bottom: 1em;
+flex-direction: row;
+display:inline-block;
+}
+
+.main-nav{
+padding-top: 4.5em;
+padding-right:1.4;
+margin-bottom: 1em;
+align-items: left;
+display:flex;
+display: inline-block;
+text-align: right;
+flex-direction:row;
+float: right;
+}
+.main-nav li{
+display: inline-block;
+text-align: right;
+flex-direction:row;
+padding-right: 1em;
+}
+
+.main-nav a{
+display: inline-block;
+text-align: right;
+}
+
+.home-intro{
+margin: 0;
+width:100%;
+display: inline-block;
+
+}
+
+h2{    
+ margin:0;
+ display:inline-block;
+}
+
+h3{
+    padding-left: .8em;
+    margin:0;
+    display:inline-block;
+}
+.body-menu{
+    display:inline-block;
+    flex-direction: row;
+}
+}
+/* @MediaQueriesDesktop - End */
+/* ----------------------------------------------------------------- */
